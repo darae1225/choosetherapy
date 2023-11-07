@@ -1,0 +1,89 @@
+
+:root {
+  --color-primary: #F7BF4F ;
+  --color-secondary:#271801;
+  --color-white: white;
+  --color-black: black;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+} 
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  margin:3rem 0;
+}
+
+.nav {
+  display: flex;
+  background: var(--color-primary);
+  justify-content: space-between; 
+  gap: 5%;
+  margin:0;
+  padding: 1rem;
+  opacity: 1;
+}
+
+.nav img {
+  max-width:70px;
+}
+
+.main-therapist-center {
+  text-align: center;
+  font-size: 35px;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  text-align: left;
+}
+
+footer p, footer h2{
+  text-align: center;
+  color: white;
+}
+
+footer {
+  background-color: var(--color-secondary);
+  padding: 3rem;
+}
+
+footer img{
+  width: 30px;
+  display: inline;
+  margin: 0 0.5rem;
+}
+
+.social-media {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 5rem;
+}

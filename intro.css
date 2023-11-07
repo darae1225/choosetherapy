@@ -1,0 +1,21 @@
+
+:root {
+  --color-primary: #F7BF4F ;
+  --color-secondary:#271801;
+  --color-white: white;
+  --color-black: black;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: var(--color-primary);
+}
+
+.intro-logo {
+  text-align: center;
+}
+
